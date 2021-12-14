@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/style/css/bootstrap.css">
+    <title>Correos</title>
+</head>
+
+<body style="background-color:#E2F4F8;">
+    <h1 style="font-family: Helvetica, sans-serif;">Nuevo Reporte Generado #R0{{lID}}</h1>
+<div class="cuerpo" style="font-family: Tahoma, sans-serif;">
+    <p>Has recibido un nuevo ticket de reporte generado por parte de: <span class="text" style="color:#DC648B">{{Nombre}}</span></p>
+    <p>La fecha y hora de Creación son:<span class="text" style="color:#DC648B"> {{Fecha}}, {{Hora}}</span></p>
+    <p  style="
+    color:#7D40A6;
+    ">"{{Falla}}"</p>
+    <p>Para visualizar tus reportes generados da click en el siguient botón.</p>
+    <a class="button btn" href="http://localhost:3000" style="
+    color: white;
+    border: 1 solid #044F1C;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;">Ir a Reportes</a>
+</div>
+<h4>En caso de haberse envíado evidencia se adjunta al pie del correo.</h4>
+<h4>CORREO GENERADO AUTOMÁTICAMENTE, NO RESPONDER</h4>
+</body>
+
+
+</html>
